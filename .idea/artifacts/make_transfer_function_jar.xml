@@ -36,6 +36,10 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-dynamodb-persistence-adapter/2.39.0/ask-sdk-dynamodb-persistence-adapter-2.39.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/amazon/alexa/ask-sdk-apache-client/2.39.0/ask-sdk-apache-client-2.39.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-kms/1.11.420/aws-java-sdk-kms-1.11.420.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

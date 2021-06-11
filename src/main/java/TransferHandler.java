@@ -7,7 +7,6 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 import com.amazonaws.util.IOUtils;
 import handlers.ConfirmTransferHandler;
-import handlers.LaunchTransferHandler;
 import handlers.TransferInitiateHandler;
 import handlers.InternalTransferCaptureHandler;
 
@@ -25,7 +24,6 @@ public class TransferHandler implements RequestStreamHandler {
                 .addRequestHandler(new TransferInitiateHandler())
                 .addRequestHandler(new InternalTransferCaptureHandler())
                 .addRequestHandler(new ConfirmTransferHandler())
-                .addRequestHandler(new LaunchTransferHandler())
                 .build();
         serializer = new JacksonSerializer();
     }
